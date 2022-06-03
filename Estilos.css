@@ -1,0 +1,79 @@
+body {background: #F8C471;
+background-image: url(../Imágenes/ícono.png);
+background-repeat: no-repeat;
+background-position: 100% 100%;
+background-attachment: fixed;
+}
+
+.título {background:#D6EAF8; color: green; text-decoration: underline; text-align: center; font-size: xxx-large;}
+h2 {text-decoration: underline;}
+p {font-size: large;}
+.lista {color: brown; text-decoration: underline;}
+.preparación {color: green; text-decoration: underline;}
+li {font-size: large;}
+.imagen {width: 600px; height: 400px;}
+.número {align-content: center;}
+.wsp {background-repeat: no-repeat;
+background-position: 100%}
+
+section {
+  width: 48%;
+  float: left;
+  margin: 1%;
+  padding: 10px;
+    box-sizing: border-box;
+
+}
+aside {
+  width: 48%;
+  float: left;
+    box-sizing: content-box;
+}
+footer{
+  clear: both;
+
+}
+
+nav a:hover {
+  background: yellow;
+  color: blue;
+}
+
+section a:hover {
+  background-color: green;
+}
+
+.imagen:hover {
+  border-radius: 25%;
+  border-style: groove;
+}
+section iframe {
+  width: 35%;
+  height: 2%;
+
+}
+footer img {
+  width: 3%;
+  height: 5%;
+}
+section h1:hover {
+  color: black;
+}
+footer img:hover {
+  width: 8%;
+}
+main h2:hover {
+  text-align: center;
+  width: 20%;
+}
+section .típicas:hover {
+  text-align: center;
+  width: 50%;
+}
+.recetas {
+  border: black solid;
+  background-color: #D6EAF8;
+}
+footer {
+  background-color: gray;
+}
